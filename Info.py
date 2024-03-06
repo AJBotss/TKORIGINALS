@@ -17,7 +17,7 @@ API_HASH = environ.get('API_HASH', '7fcac00bc99a1fb23b7563115fd079a6')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7009542041:AAEwpKluN2wwnzHPJF5L0XCq_Vi7Blx2j9s')
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/5f7d45cbd354465d98ed0.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/5f7d45cbd354465d98ed0.jpg  https://graph.org/file/6f297c2eb5f6d96a7d279.jpg https://graph.org/file/a20d696773ebd6ed6b3fe.jpg https://graph.org/file/c347fdfcdc35ccd32ceb8.jpg https://graph.org/file/aa817252b4f2858d697c9.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
